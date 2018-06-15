@@ -47,7 +47,7 @@ public class User implements Serializable {
 	}
 	
 	@OneToMany(cascade = CascadeType.ALL,orphanRemoval= true)
-	@JoinTable(schema="sopra")
+	@JoinTable(schema="opm")
 	public Set<Roles> getRoles() {
 		return roles;
 	}
