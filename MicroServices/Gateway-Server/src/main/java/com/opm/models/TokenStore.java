@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonFormat.Shape;
  *
  */
 @Entity
-@Table(name = "token_store", schema = "sopra")
+@Table(name = "token_store", schema = "opm")
 public class TokenStore {
 
 	private String token;
