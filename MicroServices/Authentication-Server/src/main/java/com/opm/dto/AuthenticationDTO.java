@@ -1,9 +1,5 @@
 package com.opm.dto;
 
-/**
- * @author tsharma
- *
- */
 public class AuthenticationDTO {
 
 	private String username;

@@ -1,15 +1,7 @@
-/*
 
-
-@author: tsharma
-
-*/
 package com.tdm.dto;
 
-/**
- * @author tsharma
- *
- */
+
 public class AssetsDTO {
 
 	private String assetType;

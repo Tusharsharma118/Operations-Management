@@ -2,10 +2,6 @@ package com.opm.dto;
 
 import java.util.Set;
 
-/**
- * @author tsharma
- *
- */
 public class UserDTO {
 	private String username;
 	private String password;

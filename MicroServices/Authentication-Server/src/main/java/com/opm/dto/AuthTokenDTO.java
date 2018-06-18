@@ -9,10 +9,6 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 import com.opm.models.Roles;
 
-/**
- * @author tsharma
- *
- */
 public class AuthTokenDTO {
 
 	private String username;

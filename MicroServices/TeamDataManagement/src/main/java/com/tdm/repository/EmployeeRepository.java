@@ -1,9 +1,4 @@
-/*
 
-
-@author: tsharma
-
-*/
 package com.tdm.repository;
 
 import java.util.List;

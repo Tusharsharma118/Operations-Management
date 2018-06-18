@@ -13,10 +13,7 @@ import com.opm.Mapper.TokenMapper;
 import com.opm.dto.TokenStoreDTO;
 import com.opm.repository.TokenStoreRepository;
 
-/**
- * @author tsharma
- *
- */
+
 public class AuthenticationFilter extends ZuulFilter {
 	private static Logger logger = LoggerFactory.getLogger(AuthenticationFilter.class);
 	@Autowired

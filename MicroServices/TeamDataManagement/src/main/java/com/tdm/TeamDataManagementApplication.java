@@ -1,9 +1,4 @@
-/*
 
-
-@author: tsharma
-
-*/
 package com.tdm;
 
 import org.springframework.boot.SpringApplication;

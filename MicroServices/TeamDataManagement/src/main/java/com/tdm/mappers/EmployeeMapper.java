@@ -10,10 +10,7 @@ import com.tdm.dto.EmployeeDTO;
 import com.tdm.models.Assets;
 import com.tdm.models.Employee;
 
-/**
- * @author tsharma
- *
- */
+
 @Mapper(componentModel="spring")
 public interface EmployeeMapper {
 

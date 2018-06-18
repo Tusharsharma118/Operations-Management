@@ -8,10 +8,7 @@ import java.util.stream.Collectors;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
-/**
- * @author tsharma
- *
- */
+
 public class AuthTokenDTO {
 
 	private String username;
