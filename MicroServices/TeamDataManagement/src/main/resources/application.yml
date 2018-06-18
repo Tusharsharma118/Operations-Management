@@ -1,23 +1,22 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/opr_mgmt
-    username: postgres
-    password: admin
-    driver-class-name: org.postgresql.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mock-opm-database?useSSL=false
+    username: root
+    password: root
+  #  driver-class-name: org.postgresql.Driver
   application:
     name: team-data-management
-  liquibase:
-    enabled: false
+  
   jpa:
-   properties:
-     hibernate:
-        jdbc:
-          lob:
-            non_contextual_creation : true  
+    #properties:
+    # hibernate:
+     #   jdbc:
+      #    lob:
+       #     non_contextual_creation : true  
    hibernate:
       ddl-auto: create-drop
       
-   database-platform: org.hibernate.dialect.PostgreSQL9Dialect 
+  # database-platform: org.hibernate.dialect.PostgreSQL9Dialect 
    show-sql: true  
    
     
