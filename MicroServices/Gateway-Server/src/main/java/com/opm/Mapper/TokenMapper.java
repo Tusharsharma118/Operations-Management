@@ -6,10 +6,6 @@ import org.mapstruct.factory.Mappers;
 import com.opm.dto.TokenStoreDTO;
 import com.opm.models.TokenStore;
 
-/**
- * @author tsharma
- *
- */
 @Mapper(componentModel = "spring")
 public interface TokenMapper {
 	TokenMapper INSTANCE = Mappers.getMapper(TokenMapper.class);

@@ -1,9 +1,4 @@
-/*
 
-
-@author: tsharma
-
-*/
 package com.tdm.models;
 
 import java.io.Serializable;
@@ -23,9 +18,7 @@ import javax.persistence.Table;
 public class Employee implements Serializable{
 
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 4435256009995728861L;
 
 	private Long empId;

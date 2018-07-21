@@ -5,10 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.opm.models.User;
 
-/**
- * @author tsharma
- *
- */
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 	

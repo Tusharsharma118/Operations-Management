@@ -7,10 +7,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * @author tsharma
- *
- */
 @Entity
 @Table(name = "roles", schema = "opm")
 public class Roles {

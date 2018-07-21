@@ -14,10 +14,6 @@ import com.opm.serviceImpl.UserServiceImpl;
 
 import org.slf4j.LoggerFactory;
 
-/**
- * @author tsharma
- *
- */
 @RestController("/authenticate")
 public class AuthenticationController {
 

@@ -7,10 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.opm.dto.AuthTokenDTO;
 
-/**
- * @author tsharma
- *
- */
+
 @FeignClient("authentication-server")
 @RibbonClient("authentication-server")
 public interface AuthenticationServerProxy {

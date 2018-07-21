@@ -20,10 +20,6 @@ import com.opm.dto.TokenStoreDTO;
 import com.opm.intercommunication.AuthenticationServerProxy;
 import com.opm.repository.TokenStoreRepository;
 
-/**
- * @author tsharma
- *
- */
 public class CatchTokenFilter extends ZuulFilter {
 
 	private static Logger logger = LoggerFactory.getLogger(CatchTokenFilter.class);

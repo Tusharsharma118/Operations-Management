@@ -12,10 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
-/**
- * @author tsharma
- *
- */
+
 @Entity
 @Table(name = "token_store", schema = "opm")
 public class TokenStore {

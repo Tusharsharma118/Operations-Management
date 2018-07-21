@@ -1,9 +1,4 @@
-/*
 
-
-@author: tsharma
-
-*/
 package com.tdm.models;
 
 import java.io.Serializable;
@@ -23,9 +18,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name="assets",schema="opm")
 public class Assets implements Serializable {
 
-		/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -4141687123148161674L;
 
 		private String assetType;

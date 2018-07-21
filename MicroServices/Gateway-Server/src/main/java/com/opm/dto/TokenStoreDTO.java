@@ -5,10 +5,7 @@ import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
-/**
- * @author tsharma
- *
- */
+
 public class TokenStoreDTO {
 
 	

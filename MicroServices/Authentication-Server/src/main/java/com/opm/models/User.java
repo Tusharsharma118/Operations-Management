@@ -13,10 +13,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- * @author tsharma
- *
- */
+
 @Entity
 @Table(name="users",schema="opm")
 public class User implements Serializable {

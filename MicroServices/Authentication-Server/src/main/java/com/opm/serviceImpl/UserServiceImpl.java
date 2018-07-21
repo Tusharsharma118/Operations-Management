@@ -20,10 +20,7 @@ import com.opm.repositories.UserRepository;
 import com.opm.service.UserService;
 import com.opm.token.serviceImpl.TokenServiceImpl;
 
-/**
- * @author tsharma
- *
- */
+
 @Service
 public class UserServiceImpl implements UserService {
 
