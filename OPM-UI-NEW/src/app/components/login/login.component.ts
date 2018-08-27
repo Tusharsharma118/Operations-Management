@@ -34,13 +34,13 @@ export class LoginComponent implements OnInit {
     }
     this.http.post("/authenticate/login", body).subscribe(response => {
       this.token = response.text();
-      console.log(this.token);
+     // console.log(this.token);
       if (this.token == "INVALID_CREDENTIALS") {
         this.invalid_login = true;
       }
       else {
         this.invalid_login = false;
-        console.log(this.token);
+       // console.log(this.token);
         sessionStorage.setItem("token", this.token);
         this.router.navigate(['/home']);
       }
